@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html table advanced</title>
+    <style>
+        table, td{
+            border: 3px solid black;
+            border-collapse: collapse;
+           padding: 10px;
+           
+        }
+        thead, tfoot{
+            background-color: aqua;
+            text-align: center;
+        }
+        tbody {
+            background-color: beige;
+        }
+        table{ 
+            width: 100%;
+       
+
+        }
+
+       
+    </style>
+</head>
+<body>
+    <table>
+        
+        <thead>
+           <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Phone</td>
+           </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rohim</td>
+                <td>Rohim@gmil.com</td>
+                <td>01542121</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>korim</td>
+                <td>korim@gmil.com</td>
+                <td>01542121211</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rohim</td>
+                <td>Rohim@gmil.com</td>
+                <td>01542121</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rohim</td>
+                <td>Rohim@gmil.com</td>
+                <td>01542121</td>
+            </tr>
+         </tbody>
+
+         <tfoot>
+            <tr>
+                <td colspan="4"> 4 persons Info</td>
+               
+            </tr>
+         </tfoot>
+    </table>
+    <h1>cell marge</h1>
+    <table border="2" >
+        <caption>Product info</caption>
+        
+        <tr>
+            <th colspan="2">A</th>
+            
+            <th colspan="2">C </th>
+            
+        </tr>
+        <tr>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+            <th rowspan="2">H</th>
+        </tr>
+        <tr>
+            <th>I</th>
+            <th>J</th>
+            <th>K</th>
+            
+        </tr>
+        <tr>
+            <th>M</th>
+            <th>N</th>
+            <th>O</th>
+            <th>P</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
